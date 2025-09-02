@@ -9,7 +9,9 @@ st.title("Streamlit Test App")
 st.write("Welcome to your new Streamlit application!")
 st.write(st.secrets.my_other_secrets.foo)
 
-st.image("https://picsum.photos/seed/picsum/800/600")
+st.image(
+    "https://fastly.picsum.photos/id/866/800/600.jpg?hmac=ABydLIy9SfKp2C562ssO9GKtL4uss8xHHILcBin8K48"
+)
 
 # Sidebar
 with st.sidebar:
