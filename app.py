@@ -9,6 +9,8 @@ st.title("Streamlit Test App")
 st.write("Welcome to your new Streamlit application!")
 st.write(st.secrets.my_other_secrets.foo)
 
+st.image("https://picsum.photos/seed/picsum/800/600")
+
 # Sidebar
 with st.sidebar:
     st.header("Configuration")
@@ -55,4 +57,3 @@ with col3:
     st.metric("Mean Y", f"{data['y'].mean():.2f}")
 
 st.success("Your app is working! Customize this template to build your application.")
-
